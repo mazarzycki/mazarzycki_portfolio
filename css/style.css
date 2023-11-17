@@ -6,6 +6,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+header {
+    padding-bottom: 8rem;
+}
+
 nav {
     overflow: hidden;
     top: 0;
@@ -194,6 +198,10 @@ footer {
         padding: 0 1vw;
     }
 
+    header {
+        padding-bottom: 8rem;
+    } 
+
     .about-image {
         display: none;
     }
@@ -228,8 +236,6 @@ footer {
         display: none;
     }
 
-
-
     .project {
         flex-direction: column;
     }
@@ -257,5 +263,9 @@ footer {
 
     .menu a {
         padding: 0 2vw;
+    }
+
+    header {
+        padding-bottom: 8rem;
     }
 }
